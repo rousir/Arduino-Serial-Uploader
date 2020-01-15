@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map SerialUploader
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SerialUploader		KEYWORD1	SerialUploader
+UploadProtocol		KEYWORD1	UploadProtocol
+HEXparser			KEYWORD1	HEXparser
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+uploaderFile		KEYWORD2
+uploaderSDFile		KEYWORD2
+uploaderSPIFFSFile	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+FILE_READ	LITERAL1
+FILE_WRITE	LITERAL1
