@@ -1,1 +1,6 @@
 = Arduino Serial Uploader Library =
+arduino serial upload firmware, 
+
+ex.  use esp8266 to upgrade the firmware for Arduino Uno
+
+arduino串口升级固件库，其他mcu通过串口给uno上传固件，可以做远程升级，脱机下载
