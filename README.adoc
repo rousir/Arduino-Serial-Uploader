@@ -5,6 +5,13 @@ ex.  use esp8266 to upgrade the firmware for Arduino Uno
 
 arduino串口升级固件库，其他mcu通过串口给uno上传固件，可以做远程升级，脱机下载
 
+# 接线
+  ESP8266  arduino uno
+  RX-------TX
+  TX-------RX
+  GPIO4----RST
+  GND------GND
+  
 # 使用说明
 1. 生成自己的uno的固件
 2. 8266使用此示例，把生成的uno固件放到spiffs或者sd卡中
